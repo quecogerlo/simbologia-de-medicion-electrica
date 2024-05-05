@@ -1,0 +1,60 @@
+#titulo {
+    padding: auto;
+    margin: auto;
+    font-display: auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #000;
+    font-size: 50px;
+}
+
+.imagenes {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+
+.espacioImg {
+    border: 3px solid #000;
+    margin: 3px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textosPreg {
+    font-display: auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #000;
+    font-size: 25px;
+}
+
+.botones {
+    border: 3px solid #000;
+    background-color: #fff;
+    font-display: auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #000;
+    font-size: 25px;
+    width: 506px;
+    margin: 3px;
+}
+
+.botones:active {
+    color: #888;
+    border: 3px solid #888;
+}
+
+.botonesChicos {
+    border: 3px solid #000;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #000;
+    font-size: 15px;
+    margin: 3px;
+    position: absolute;
+}
+
+.botonesChicos:hover {
+    color: #888;
+    border: 3px solid #888;
+}
